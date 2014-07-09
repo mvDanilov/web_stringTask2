@@ -12,7 +12,7 @@
         <h3><fmt:message key="index.hello"/></h3>
 
         <p>
-                ${param.text}
+        ${param.text}
         </p>
     </div>
     </body>
