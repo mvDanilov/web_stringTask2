@@ -6,7 +6,7 @@ import java.util.List;
 public class Sentence extends CompoundText<Word> {
 
     public Sentence(List<Word> components) {
-        super(components);
+        super(components) ;
     }
     public List<Word>getListWord(){
         return components;

@@ -3,7 +3,7 @@ package com.epam.mv.entity;
 import java.util.List;
 public class Word extends CompoundText<Char> {
 
-    public Word(List<Char> components) {
+    public Word(List<Char> components)  {
         super(components);
     }
     public List<Char>getListChar(){

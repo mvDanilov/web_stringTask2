@@ -7,7 +7,7 @@ public class Char {
     private String aChar;
 
     public Char(String aChar){
-        this.aChar=aChar;
+        this.aChar=aChar ;
     }
 
     @Override

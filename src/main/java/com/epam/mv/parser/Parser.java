@@ -14,7 +14,7 @@ import java.util.List;
 
 public class Parser {
 
-    public Text parseText(String originalString) {
+    public Text parseText(String originalString)  {
         String[] arrayParagraphs = originalString.split("\n");
         List<Paragraph> paragraphs = new ArrayList<>();
         for (String Paragraph : arrayParagraphs) {
