@@ -4,7 +4,8 @@
 <fmt:bundle basename="i18n.messages">
     <html>
     <head>
-        <title><fmt:message key="title"/></title>
+        <title><fmt:message key="index.hello"/>
+        </title>
     </head>
     <body>
     <div>

@@ -1,4 +1,4 @@
-package servlet;
+package com.epam.mv.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -11,6 +11,7 @@ public class Controller extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         request.setCharacterEncoding("UTF-8");
+
         request.getRequestDispatcher("/WEB-INF/result.jsp").forward(request, response);
 
     }
